@@ -24,3 +24,50 @@ html {
 body {
   font-size: 1rem;
 }
+
+/* 공통요소 */
+.clearfix::after {
+  position: relative;
+  display: block;
+  width: 100%;
+  clear: both;
+}
+.inner {
+  position: relative;
+}
+
+/* 상단 */
+.header {
+}
+
+/* 비주얼 */
+.visual {
+}
+
+/* 대전홍보 */
+.cityinfo {
+}
+
+/* 페스티벌 소개 */
+.festival {
+}
+
+/* 프로그램 소개 */
+.program {
+}
+
+/* 행사 일정 */
+.schedule {
+}
+
+/* 행사장 안내 */
+.map {
+}
+
+/* 이벤트 */
+.event {
+}
+
+/* 하단 */
+.footer {
+}
